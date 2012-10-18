@@ -82,7 +82,7 @@ rest_hash.map do |key, value|
           user_hash[user_link] = user_name
           user_file.puts user_link + "\t" + user_name 
         end
-        # get rate
+        # get rateing
         score = 0
         comment.search('div.recommend').search('b').each do |rate|
           item = rate.to_s.match(/>\d</)
