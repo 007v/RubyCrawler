@@ -4,7 +4,7 @@
 ## DATA SCRAPPER FOR OPENRICE ##
 ################################
 
-# Scrapper for resturants
+# Scrapper for users
 
 require 'rubygems'
 require 'mechanize'
